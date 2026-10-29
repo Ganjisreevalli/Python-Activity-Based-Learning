@@ -1,5 +1,5 @@
 
-# Case Study 6: Multi-Product Shopping Budget Constraint
+
 
 print("===== SHOPPING BUDGET SYSTEM =====")
 
