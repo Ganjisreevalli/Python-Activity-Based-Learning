@@ -1,5 +1,5 @@
 
-# Case Study 9: Password Policy Validation Engine
+
 
 print("===== PASSWORD VALIDATION SYSTEM =====")
 
