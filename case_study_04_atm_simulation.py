@@ -1,5 +1,5 @@
 
-# Case Study 4: ATM Transaction Sequence Simulation
+
 
 balance = 5000.0
 transaction_history = []
