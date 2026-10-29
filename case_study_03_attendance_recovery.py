@@ -3,7 +3,7 @@
 
 REQUIRED_ATTENDANCE = 75
 
-print("===== ATTENDANCE RECOVERY SYSTEM =====")
+print(" ATTENDANCE RECOVERY SYSTEM ")
 
 try:
     total_classes = int(input("Enter total classes held: "))
