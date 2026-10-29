@@ -1,7 +1,7 @@
 
 
 
-print("===== PASSWORD VALIDATION SYSTEM =====")
+print(" PASSWORD VALIDATION SYSTEM ")
 
 password = input("Enter a password to validate: ")
 
