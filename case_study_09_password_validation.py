@@ -22,7 +22,7 @@ for character in password:
     elif character in special_characters:
         has_special = True
 
-print("\n===== VALIDATION RESULTS =====")
+print("\n VALIDATION RESULTS ")
 print("Minimum 8 characters:", len(password) >= 8)
 print("Contains uppercase letter:", has_upper)
 print("Contains lowercase letter:", has_lower)
@@ -40,4 +40,4 @@ if (
 else:
     print("\nPassword Status: INVALID")
 
-print("======================================")
+
