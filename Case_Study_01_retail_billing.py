@@ -9,7 +9,7 @@ products = [
 subtotal = 0
 bill_items = []
 
-print("====
+
 for product in products:
     name, price, category, tax_rate = product
 
@@ -35,7 +35,7 @@ if discount > 200:
     discount = 200
 
 
-print("\n========== ITEMIZED BILL ==========")
+print("\n ITEMIZED BILL")
 print("Product       Qty   Price   Amount")
 
 for item in bill_items:
@@ -44,7 +44,7 @@ for item in bill_items:
     print(name, " ", quantity, "   Rs.", price,
           "   Rs.", amount)
 
-print("-----------------------------------")
+
 print("Subtotal: Rs.", round(subtotal, 2))
 print("Discount: Rs.", round(discount, 2))
 
@@ -67,7 +67,6 @@ print("Tax: Rs.", round(total_tax, 2))
 
 final_amount = subtotal - discount + total_tax
 
-print("-----------------------------------")
 print("FINAL BILL: Rs.", round(final_amount, 2))
 print("Thank you for shopping!")
 
