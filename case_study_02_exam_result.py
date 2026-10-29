@@ -1,5 +1,4 @@
 
-# Case Study 2: Examination Result and Grace-Mark Validation
 
 PASS_MARK = 35
 MAX_GRACE_MARKS = 5
@@ -9,7 +8,7 @@ marks = []80
 
 print("===== EXAMINATION RESULT SYSTEM =====")
 
-# Input marks for five subjects
+
 for i in range(NUMBER_OF_SUBJECTS):
     while True:
         try:
@@ -24,7 +23,7 @@ for i in range(NUMBER_OF_SUBJECTS):
         except ValueError:
             print("Invalid input. Please enter a whole number.")
 
-# Find subjects in which the student failed
+
 failed_subjects = []
 
 for i in range(NUMBER_OF_SUBJECTS):
@@ -33,7 +32,7 @@ for i in range(NUMBER_OF_SUBJECTS):
 
 grace_used = 0
 
-# Apply grace marks only if exactly one subject was failed
+
 if len(failed_subjects) == 1:
     index = failed_subjects[0]
     marks_needed = PASS_MARK - marks[index]
@@ -42,11 +41,11 @@ if len(failed_subjects) == 1:
         marks[index] = PASS_MARK
         grace_used = marks_needed
 
-# Calculate total and percentage after grace marks
+
 total = sum(marks)
 percentage = total / NUMBER_OF_SUBJECTS
 
-# Display the result
+
 print("\n========== RESULT ==========")
 
 for i in range(NUMBER_OF_SUBJECTS):
