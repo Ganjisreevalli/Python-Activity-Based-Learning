@@ -1,5 +1,5 @@
 
-# Case Study 7: Advanced Numeric Pattern Generator
+
 
 print("===== NUMERIC PATTERN GENERATOR =====")
 
