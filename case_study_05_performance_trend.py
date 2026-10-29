@@ -1,5 +1,5 @@
 
-# Case Study 5: Student Performance Trend Analysis
+
 
 print("===== STUDENT PERFORMANCE TREND ANALYSIS =====")
 
