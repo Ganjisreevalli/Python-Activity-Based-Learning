@@ -1,5 +1,5 @@
 
-# Case Study 3: Attendance Recovery Computation
+
 
 REQUIRED_ATTENDANCE = 75
 
@@ -25,7 +25,7 @@ try:
             print("Additional classes needed: 0")
 
         else:
-            # Calculate the minimum classes to attend consecutively
+         
             additional_classes = 0
 
             while (
