@@ -1,5 +1,5 @@
 
-# Case Study 10: Text Compression Using Character Runs
+
 
 print("===== TEXT COMPRESSION SYSTEM =====")
 
