@@ -6,7 +6,7 @@ NUMBER_OF_SUBJECTS = 5
 
 marks = []80
 
-print("===== EXAMINATION RESULT SYSTEM =====")
+print(" EXAMINATION RESULT SYSTEM ")
 
 
 for i in range(NUMBER_OF_SUBJECTS):
